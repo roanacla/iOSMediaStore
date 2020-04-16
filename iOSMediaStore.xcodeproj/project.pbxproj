@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBB8732C24481B53002BF221 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB8732B24481B53002BF221 /* AppDelegate.swift */; };
+		DBB8732E24481B53002BF221 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB8732D24481B53002BF221 /* SceneDelegate.swift */; };
+		DBB8733024481B53002BF221 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB8732F24481B53002BF221 /* ViewController.swift */; };
+		DBB8733324481B53002BF221 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB8733124481B53002BF221 /* Main.storyboard */; };
+		DBB8733524481B54002BF221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB8733424481B54002BF221 /* Assets.xcassets */; };
+		DBB8733824481B54002BF221 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB8733624481B54002BF221 /* LaunchScreen.storyboard */; };
+		DBB8734324481B54002BF221 /* iOSMediaStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB8734224481B54002BF221 /* iOSMediaStoreTests.swift */; };
+		DBB8734E24481B54002BF221 /* iOSMediaStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB8734D24481B54002BF221 /* iOSMediaStoreUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBB8733F24481B54002BF221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBB8732024481B53002BF221 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBB8732724481B53002BF221;
+			remoteInfo = iOSMediaStore;
+		};
+		DBB8734A24481B54002BF221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBB8732024481B53002BF221 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBB8732724481B53002BF221;
+			remoteInfo = iOSMediaStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBB8732824481B53002BF221 /* iOSMediaStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSMediaStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB8732B24481B53002BF221 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBB8732D24481B53002BF221 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DBB8732F24481B53002BF221 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBB8733224481B53002BF221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBB8733424481B54002BF221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBB8733724481B54002BF221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBB8733924481B54002BF221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBB8733E24481B54002BF221 /* iOSMediaStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSMediaStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB8734224481B54002BF221 /* iOSMediaStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSMediaStoreTests.swift; sourceTree = "<group>"; };
+		DBB8734424481B54002BF221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBB8734924481B54002BF221 /* iOSMediaStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSMediaStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB8734D24481B54002BF221 /* iOSMediaStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSMediaStoreUITests.swift; sourceTree = "<group>"; };
+		DBB8734F24481B54002BF221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBB8732524481B53002BF221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB8733B24481B54002BF221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB8734624481B54002BF221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBB8731F24481B53002BF221 = {
+			isa = PBXGroup;
+			children = (
+				DBB8732A24481B53002BF221 /* iOSMediaStore */,
+				DBB8734124481B54002BF221 /* iOSMediaStoreTests */,
+				DBB8734C24481B54002BF221 /* iOSMediaStoreUITests */,
+				DBB8732924481B53002BF221 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBB8732924481B53002BF221 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBB8732824481B53002BF221 /* iOSMediaStore.app */,
+				DBB8733E24481B54002BF221 /* iOSMediaStoreTests.xctest */,
+				DBB8734924481B54002BF221 /* iOSMediaStoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBB8732A24481B53002BF221 /* iOSMediaStore */ = {
+			isa = PBXGroup;
+			children = (
+				DBB8732B24481B53002BF221 /* AppDelegate.swift */,
+				DBB8732D24481B53002BF221 /* SceneDelegate.swift */,
+				DBB8732F24481B53002BF221 /* ViewController.swift */,
+				DBB8733124481B53002BF221 /* Main.storyboard */,
+				DBB8733424481B54002BF221 /* Assets.xcassets */,
+				DBB8733624481B54002BF221 /* LaunchScreen.storyboard */,
+				DBB8733924481B54002BF221 /* Info.plist */,
+			);
+			path = iOSMediaStore;
+			sourceTree = "<group>";
+		};
+		DBB8734124481B54002BF221 /* iOSMediaStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBB8734224481B54002BF221 /* iOSMediaStoreTests.swift */,
+				DBB8734424481B54002BF221 /* Info.plist */,
+			);
+			path = iOSMediaStoreTests;
+			sourceTree = "<group>";
+		};
+		DBB8734C24481B54002BF221 /* iOSMediaStoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBB8734D24481B54002BF221 /* iOSMediaStoreUITests.swift */,
+				DBB8734F24481B54002BF221 /* Info.plist */,
+			);
+			path = iOSMediaStoreUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBB8732724481B53002BF221 /* iOSMediaStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBB8735224481B54002BF221 /* Build configuration list for PBXNativeTarget "iOSMediaStore" */;
+			buildPhases = (
+				DBB8732424481B53002BF221 /* Sources */,
+				DBB8732524481B53002BF221 /* Frameworks */,
+				DBB8732624481B53002BF221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSMediaStore;
+			productName = iOSMediaStore;
+			productReference = DBB8732824481B53002BF221 /* iOSMediaStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBB8733D24481B54002BF221 /* iOSMediaStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBB8735524481B54002BF221 /* Build configuration list for PBXNativeTarget "iOSMediaStoreTests" */;
+			buildPhases = (
+				DBB8733A24481B54002BF221 /* Sources */,
+				DBB8733B24481B54002BF221 /* Frameworks */,
+				DBB8733C24481B54002BF221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBB8734024481B54002BF221 /* PBXTargetDependency */,
+			);
+			name = iOSMediaStoreTests;
+			productName = iOSMediaStoreTests;
+			productReference = DBB8733E24481B54002BF221 /* iOSMediaStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBB8734824481B54002BF221 /* iOSMediaStoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBB8735824481B54002BF221 /* Build configuration list for PBXNativeTarget "iOSMediaStoreUITests" */;
+			buildPhases = (
+				DBB8734524481B54002BF221 /* Sources */,
+				DBB8734624481B54002BF221 /* Frameworks */,
+				DBB8734724481B54002BF221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBB8734B24481B54002BF221 /* PBXTargetDependency */,
+			);
+			name = iOSMediaStoreUITests;
+			productName = iOSMediaStoreUITests;
+			productReference = DBB8734924481B54002BF221 /* iOSMediaStoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBB8732024481B53002BF221 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Roger Navarro";
+				TargetAttributes = {
+					DBB8732724481B53002BF221 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					DBB8733D24481B54002BF221 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = DBB8732724481B53002BF221;
+					};
+					DBB8734824481B54002BF221 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = DBB8732724481B53002BF221;
+					};
+				};
+			};
+			buildConfigurationList = DBB8732324481B53002BF221 /* Build configuration list for PBXProject "iOSMediaStore" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBB8731F24481B53002BF221;
+			productRefGroup = DBB8732924481B53002BF221 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBB8732724481B53002BF221 /* iOSMediaStore */,
+				DBB8733D24481B54002BF221 /* iOSMediaStoreTests */,
+				DBB8734824481B54002BF221 /* iOSMediaStoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBB8732624481B53002BF221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB8733824481B54002BF221 /* LaunchScreen.storyboard in Resources */,
+				DBB8733524481B54002BF221 /* Assets.xcassets in Resources */,
+				DBB8733324481B53002BF221 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB8733C24481B54002BF221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB8734724481B54002BF221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBB8732424481B53002BF221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB8733024481B53002BF221 /* ViewController.swift in Sources */,
+				DBB8732C24481B53002BF221 /* AppDelegate.swift in Sources */,
+				DBB8732E24481B53002BF221 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB8733A24481B54002BF221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB8734324481B54002BF221 /* iOSMediaStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB8734524481B54002BF221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB8734E24481B54002BF221 /* iOSMediaStoreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBB8734024481B54002BF221 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBB8732724481B53002BF221 /* iOSMediaStore */;
+			targetProxy = DBB8733F24481B54002BF221 /* PBXContainerItemProxy */;
+		};
+		DBB8734B24481B54002BF221 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBB8732724481B53002BF221 /* iOSMediaStore */;
+			targetProxy = DBB8734A24481B54002BF221 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBB8733124481B53002BF221 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBB8733224481B53002BF221 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBB8733624481B54002BF221 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBB8733724481B54002BF221 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBB8735024481B54002BF221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBB8735124481B54002BF221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBB8735324481B54002BF221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3B2ACWEFM;
+				INFOPLIST_FILE = iOSMediaStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alquimia.iOSMediaStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBB8735424481B54002BF221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3B2ACWEFM;
+				INFOPLIST_FILE = iOSMediaStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alquimia.iOSMediaStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DBB8735624481B54002BF221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3B2ACWEFM;
+				INFOPLIST_FILE = iOSMediaStoreTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alquimia.iOSMediaStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSMediaStore.app/iOSMediaStore";
+			};
+			name = Debug;
+		};
+		DBB8735724481B54002BF221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3B2ACWEFM;
+				INFOPLIST_FILE = iOSMediaStoreTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alquimia.iOSMediaStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSMediaStore.app/iOSMediaStore";
+			};
+			name = Release;
+		};
+		DBB8735924481B54002BF221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3B2ACWEFM;
+				INFOPLIST_FILE = iOSMediaStoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alquimia.iOSMediaStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSMediaStore;
+			};
+			name = Debug;
+		};
+		DBB8735A24481B54002BF221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3B2ACWEFM;
+				INFOPLIST_FILE = iOSMediaStoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alquimia.iOSMediaStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSMediaStore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBB8732324481B53002BF221 /* Build configuration list for PBXProject "iOSMediaStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB8735024481B54002BF221 /* Debug */,
+				DBB8735124481B54002BF221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBB8735224481B54002BF221 /* Build configuration list for PBXNativeTarget "iOSMediaStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB8735324481B54002BF221 /* Debug */,
+				DBB8735424481B54002BF221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBB8735524481B54002BF221 /* Build configuration list for PBXNativeTarget "iOSMediaStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB8735624481B54002BF221 /* Debug */,
+				DBB8735724481B54002BF221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBB8735824481B54002BF221 /* Build configuration list for PBXNativeTarget "iOSMediaStoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB8735924481B54002BF221 /* Debug */,
+				DBB8735A24481B54002BF221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBB8732024481B53002BF221 /* Project object */;
+}
