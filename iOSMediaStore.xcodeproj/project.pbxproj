@@ -12,6 +12,7 @@
 		DB1147032448484400E2AC71 /* DetailAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1147022448484400E2AC71 /* DetailAttributes.swift */; };
 		DB1147052448494400E2AC71 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1147042448494400E2AC71 /* DetailTableViewCell.swift */; };
 		DB114707244852C600E2AC71 /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB114706244852C600E2AC71 /* LoadingCell.xib */; };
+		DB11470A24485D7F00E2AC71 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB11470924485D7F00E2AC71 /* UIImageViewExtension.swift */; };
 		DBB8732C24481B53002BF221 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB8732B24481B53002BF221 /* AppDelegate.swift */; };
 		DBB8732E24481B53002BF221 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB8732D24481B53002BF221 /* SceneDelegate.swift */; };
 		DBB8733324481B53002BF221 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB8733124481B53002BF221 /* Main.storyboard */; };
@@ -47,6 +48,7 @@
 		DB1147022448484400E2AC71 /* DetailAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAttributes.swift; sourceTree = "<group>"; };
 		DB1147042448494400E2AC71 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
 		DB114706244852C600E2AC71 /* LoadingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
+		DB11470924485D7F00E2AC71 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 		DBB8732824481B53002BF221 /* iOSMediaStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSMediaStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBB8732B24481B53002BF221 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBB8732D24481B53002BF221 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +101,14 @@
 			path = Networking;
 			sourceTree = "<group>";
 		};
+		DB11470824485D3E00E2AC71 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DB11470924485D7F00E2AC71 /* UIImageViewExtension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		DBB8731F24481B53002BF221 = {
 			isa = PBXGroup;
 			children = (
@@ -122,13 +132,12 @@
 		DBB8732A24481B53002BF221 /* iOSMediaStore */ = {
 			isa = PBXGroup;
 			children = (
+				DBB8736224482444002BF221 /* Model */,
 				DB1147012448480700E2AC71 /* Networking */,
 				DBB8736324482456002BF221 /* View */,
-				DBB8736224482444002BF221 /* Model */,
 				DBB8735B24481BEE002BF221 /* ViewController */,
-				DBB8732B24481B53002BF221 /* AppDelegate.swift */,
+				DB11470824485D3E00E2AC71 /* Utils */,
 				DBB8733424481B54002BF221 /* Assets.xcassets */,
-				DBB8733624481B54002BF221 /* LaunchScreen.storyboard */,
 				DBB8733924481B54002BF221 /* Info.plist */,
 			);
 			path = iOSMediaStore;
@@ -155,6 +164,7 @@
 		DBB8735B24481BEE002BF221 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				DBB8732B24481B53002BF221 /* AppDelegate.swift */,
 				DBB8735C24481C04002BF221 /* SearchTableViewController.swift */,
 				DB1146FE2448386000E2AC71 /* ShowDetailViewController.swift */,
 			);
@@ -177,6 +187,7 @@
 				DB1146FA24482C6300E2AC71 /* ResultTableViewCell.swift */,
 				DB1147042448494400E2AC71 /* DetailTableViewCell.swift */,
 				DB114706244852C600E2AC71 /* LoadingCell.xib */,
+				DBB8733624481B54002BF221 /* LaunchScreen.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -313,6 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB11470A24485D7F00E2AC71 /* UIImageViewExtension.swift in Sources */,
 				DB1147052448494400E2AC71 /* DetailTableViewCell.swift in Sources */,
 				DBB8732C24481B53002BF221 /* AppDelegate.swift in Sources */,
 				DBB8735F24481E0E002BF221 /* Search.swift in Sources */,

@@ -51,7 +51,6 @@ extension ShowDetailViewController: UITableViewDelegate, UITableViewDataSource {
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        print(DetailAttributes.attributes.count)
         return DetailAttributes.attributes.count
     }
     

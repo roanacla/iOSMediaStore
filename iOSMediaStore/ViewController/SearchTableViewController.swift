@@ -36,7 +36,7 @@ class SearchTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.searchBar.delegate = self
-//        performSearch(searchText: "Imagine, John L")
+        performSearch(searchText: "Ricardo Arjona")
         let cellNib = UINib(nibName: TableView.CellIdentifiers.loadingCell, bundle: nil)
         self.tableView.register(cellNib, forCellReuseIdentifier: TableView.CellIdentifiers.loadingCell)
     }
@@ -63,7 +63,6 @@ class SearchTableViewController: UITableViewController {
         case .noResults:
             return 1
         case .results(let list):
-            print(list.count)
             return list.count
         }
     }
@@ -84,7 +83,6 @@ class SearchTableViewController: UITableViewController {
             let cell = tableView.dequeueReusableCell(withIdentifier: TableView.CellIdentifiers.searchResultCell, for: indexPath) as! ResultTableViewCell
 
             let data = list[indexPath.row]
-            print(data)
             cell.configure(withData: data)
             return cell
         }
