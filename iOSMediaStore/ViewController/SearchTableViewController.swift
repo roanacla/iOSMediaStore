@@ -22,15 +22,23 @@ class SearchTableViewController: UITableViewController {
     struct TableView {
       struct CellIdentifiers {
         static let searchResultCell = "SearchResultCell"
-        static let nothingFoundCell = "NothingFoundCell"
         static let loadingCell = "LoadingCell"
       }
+    }
+    
+    struct Segues {
+        struct Identifiers {
+            static let showDetail = "ShowDetail"
+        }
     }
     
     //MARK: - View Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         self.searchBar.delegate = self
+//        performSearch(searchText: "Imagine, John L")
+        let cellNib = UINib(nibName: TableView.CellIdentifiers.loadingCell, bundle: nil)
+        self.tableView.register(cellNib, forCellReuseIdentifier: TableView.CellIdentifiers.loadingCell)
     }
     
     // MARK: - Functions
@@ -40,7 +48,7 @@ class SearchTableViewController: UITableViewController {
             guard let self = self else { return }
             self.tableView.reloadData()
         })
-        
+        self.tableView.reloadData()
         
     }
 
@@ -66,12 +74,15 @@ class SearchTableViewController: UITableViewController {
         case .notSearchedYet:
             return UITableViewCell()
         case .loading:
-            return UITableViewCell()
+            let cell = tableView.dequeueReusableCell(withIdentifier: TableView.CellIdentifiers.loadingCell, for: indexPath)
+            let spinner = cell.viewWithTag(100) as! UIActivityIndicatorView
+            spinner.startAnimating()
+            return cell
         case .noResults:
             return UITableViewCell()
         case .results(let list):
             let cell = tableView.dequeueReusableCell(withIdentifier: TableView.CellIdentifiers.searchResultCell, for: indexPath) as! ResultTableViewCell
-            
+
             let data = list[indexPath.row]
             print(data)
             cell.configure(withData: data)
@@ -82,7 +93,13 @@ class SearchTableViewController: UITableViewController {
 
     //MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
+        if segue.identifier == Segues.Identifiers.showDetail {
+            let vc = segue.destination as! ShowDetailViewController
+            if case .results(let list) = search.state, let indexPath = tableView.indexPathForSelectedRow {
+                let data = list[indexPath.row]
+                vc.data = data
+            }
+        }
     }
     
 
