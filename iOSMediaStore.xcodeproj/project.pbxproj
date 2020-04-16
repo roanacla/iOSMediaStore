@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB1146FB24482C6300E2AC71 /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1146FA24482C6300E2AC71 /* ResultTableViewCell.swift */; };
+		DB1146FF2448386000E2AC71 /* ShowDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1146FE2448386000E2AC71 /* ShowDetailViewController.swift */; };
 		DBB8732C24481B53002BF221 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB8732B24481B53002BF221 /* AppDelegate.swift */; };
 		DBB8732E24481B53002BF221 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB8732D24481B53002BF221 /* SceneDelegate.swift */; };
-		DBB8733024481B53002BF221 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB8732F24481B53002BF221 /* ViewController.swift */; };
 		DBB8733324481B53002BF221 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB8733124481B53002BF221 /* Main.storyboard */; };
 		DBB8733524481B54002BF221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB8733424481B54002BF221 /* Assets.xcassets */; };
 		DBB8733824481B54002BF221 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB8733624481B54002BF221 /* LaunchScreen.storyboard */; };
 		DBB8734324481B54002BF221 /* iOSMediaStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB8734224481B54002BF221 /* iOSMediaStoreTests.swift */; };
 		DBB8734E24481B54002BF221 /* iOSMediaStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB8734D24481B54002BF221 /* iOSMediaStoreUITests.swift */; };
+		DBB8735D24481C04002BF221 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB8735C24481C04002BF221 /* SearchTableViewController.swift */; };
+		DBB8735F24481E0E002BF221 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB8735E24481E0E002BF221 /* Search.swift */; };
+		DBB8736124481E35002BF221 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB8736024481E35002BF221 /* SearchResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB1146FA24482C6300E2AC71 /* ResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
+		DB1146FE2448386000E2AC71 /* ShowDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailViewController.swift; sourceTree = "<group>"; };
 		DBB8732824481B53002BF221 /* iOSMediaStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSMediaStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBB8732B24481B53002BF221 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBB8732D24481B53002BF221 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DBB8732F24481B53002BF221 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DBB8733224481B53002BF221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBB8733424481B54002BF221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBB8733724481B54002BF221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,9 @@
 		DBB8734924481B54002BF221 /* iOSMediaStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSMediaStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBB8734D24481B54002BF221 /* iOSMediaStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSMediaStoreUITests.swift; sourceTree = "<group>"; };
 		DBB8734F24481B54002BF221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBB8735C24481C04002BF221 /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		DBB8735E24481E0E002BF221 /* Search.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		DBB8736024481E35002BF221 /* SearchResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,10 @@
 		DBB8732A24481B53002BF221 /* iOSMediaStore */ = {
 			isa = PBXGroup;
 			children = (
+				DBB8736324482456002BF221 /* View */,
+				DBB8736224482444002BF221 /* Model */,
+				DBB8735B24481BEE002BF221 /* ViewController */,
 				DBB8732B24481B53002BF221 /* AppDelegate.swift */,
-				DBB8732D24481B53002BF221 /* SceneDelegate.swift */,
-				DBB8732F24481B53002BF221 /* ViewController.swift */,
-				DBB8733124481B53002BF221 /* Main.storyboard */,
 				DBB8733424481B54002BF221 /* Assets.xcassets */,
 				DBB8733624481B54002BF221 /* LaunchScreen.storyboard */,
 				DBB8733924481B54002BF221 /* Info.plist */,
@@ -126,6 +134,34 @@
 				DBB8734F24481B54002BF221 /* Info.plist */,
 			);
 			path = iOSMediaStoreUITests;
+			sourceTree = "<group>";
+		};
+		DBB8735B24481BEE002BF221 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DBB8735C24481C04002BF221 /* SearchTableViewController.swift */,
+				DB1146FE2448386000E2AC71 /* ShowDetailViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DBB8736224482444002BF221 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DBB8735E24481E0E002BF221 /* Search.swift */,
+				DBB8736024481E35002BF221 /* SearchResult.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DBB8736324482456002BF221 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DBB8732D24481B53002BF221 /* SceneDelegate.swift */,
+				DBB8733124481B53002BF221 /* Main.storyboard */,
+				DB1146FA24482C6300E2AC71 /* ResultTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +295,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBB8733024481B53002BF221 /* ViewController.swift in Sources */,
 				DBB8732C24481B53002BF221 /* AppDelegate.swift in Sources */,
+				DBB8735F24481E0E002BF221 /* Search.swift in Sources */,
+				DB1146FB24482C6300E2AC71 /* ResultTableViewCell.swift in Sources */,
+				DB1146FF2448386000E2AC71 /* ShowDetailViewController.swift in Sources */,
+				DBB8736124481E35002BF221 /* SearchResult.swift in Sources */,
+				DBB8735D24481C04002BF221 /* SearchTableViewController.swift in Sources */,
 				DBB8732E24481B53002BF221 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
